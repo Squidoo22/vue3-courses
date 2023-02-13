@@ -3,6 +3,8 @@ import { store } from '@/store/index.js';
 
 const ROOT_API_URL = import.meta.env.VITE_API_URL;
 
+console.log(import.meta.env);
+
 const defaultAxiosOptions = {
     baseURL: ROOT_API_URL,
     responseType: 'json',
